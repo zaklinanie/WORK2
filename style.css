@@ -1,0 +1,134 @@
+body{
+    background: #c7b39b url(images/bodybg.png);
+    background-attachment:fixed;
+    background-position: left center;
+}
+
+#wrapper{ 
+    width: 900px;  
+    margin: 0 auto;
+    border-radius: 5px;
+	float: none; 
+}
+
+#header{
+    position:relative; 
+    height: 440px; 
+    margin-bottom: 25px; 
+    border-radius: 5px; 
+    box-shadow: rgba(0,0,0,0.5) 2px 2px 5px; 
+    background: #c7b39b url(images/2.png);
+	background-size: 100%;
+}
+
+#sidebar{
+    background-color: #ffffff; 
+    width: 197px; 
+    padding: 7px; 
+    border-radius: 5px; 
+	float: right; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+#content{ 
+    margin-bottom: 25px; 
+    width: 630px; 
+    padding: 25px; 
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 400;
+	float: left; 
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 2px;
+}
+
+h2{
+    font-family: 'Pangolin', 'Commissioner', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#794800
+}
+
+h3{
+    font-family: 'Pangolin', 'Commissioner', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#573502
+}
+
+p{
+    font-family:  'Commissioner', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#241602
+}
+
+.imgg{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    width: 47%;
+    padding: 8px;
+}
+
+@media (max-width: 900px) {
+	
+#wrapper{ 
+width: 500px !important;  float: none !important;}
+
+#header{
+height: 240px !important; width: 500px;
+float: none !important;}
+
+
+#sidebar{
+    background-color: #ffffff; 
+    width: 480px !important;
+    padding: 10px; 
+    float: none !important;
+}
+
+#content{ 
+
+width: 480px !important; 
+float: none !important;
+padding:10px ;}
+
+.imgg{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    width: 45%;
+    padding: 8px;
+}
+
+}
+
+@media (max-width: 620px) {
+	
+#wrapper{ 
+width: 300px !important;  float: none !important;}
+
+#header{
+height: 140px !important; width: 300px;
+float: none !important;}
+
+
+#sidebar{
+    background-color: #ffffff; 
+    width: 280px !important;
+    padding: 10px; 
+    float: none !important;
+}
+
+#content{ 
+
+width: 280px !important; 
+float: none !important;
+padding:10px ;}
+
+.imgg{
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    width: 40%;
+    padding: 8px;
+}
+
+}
